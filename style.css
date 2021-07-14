@@ -5,6 +5,7 @@
 /* general properties  */
 
 body{
+    margin:0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -190,12 +191,6 @@ Media Queris
 
 @media screen and (max-width:480px){
         
-    
-    body{
-        top:0;
-        left:0;
-    }
-    
     header{
         height:695px;
         width: 100%;
@@ -280,14 +275,11 @@ Media Queris
 
 /* For tablet  */
 
-@media screen and (max-width:768px) and (min-width:481px)
+@media screen and (max-width:1250px) and (min-width:481px)
 {
-    
     body{
-        top:0;
-        left:0;
+        margin:0;
     }
-    
     header{
         height:695px;
         width: 100%;
@@ -398,3 +390,6 @@ Media Queris
     color: #10437A;
     }
 }
+
+
+
