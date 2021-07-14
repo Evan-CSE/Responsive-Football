@@ -115,7 +115,7 @@ gallery style
 }
 
 .player:hover{
-    transform:scale(1.10);
+    transform:scale(1.05);
     overflow: hidden;
 }
 
@@ -363,7 +363,7 @@ Media Queris
         }
 
         .player:hover{
-        transform:scale(1.10);
+        transform:scale(1.05);
         overflow: hidden;
         }
     
